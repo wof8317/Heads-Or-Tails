@@ -16,22 +16,17 @@ namespace HeadsOrTails
         {
             InitializeComponent();
         }
-
-        private void lblTailsCount_Click(object sender, EventArgs e)
-        {
-
-        }
-
+        // Button Event to show Heads when you click on the heads button.
         private void btnShowHeads_Click(object sender, EventArgs e)
         {
             picCoins.Image = Properties.Resources.Heads1;
         }
-
+        // Button Event to show Tails when you click on the tails button.
         private void btnShowTails_Click(object sender, EventArgs e)
         {
             picCoins.Image = Properties.Resources.Tails1;
         }
-
+        // Button Event to reset the coin graphic to a default neutral one.
         private void Reset_Click(object sender, EventArgs e)
         {
             picCoins.Image = Properties.Resources._10cents;
